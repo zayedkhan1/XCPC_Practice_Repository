@@ -1,0 +1,9 @@
+x,y=map(int,input().split())
+if(x>4):
+    one=x-4
+    res=one*24+(y)
+elif(x==4):
+    res=y
+else:
+    res=0
+print(res)
