@@ -1,10 +1,7 @@
-# Read input values
-x, y = map(int, input().split())
 
-# Calculate perimeter
+x, y = map(int, input().split())
 perimeter = 2 * (x + y)
 
-# Check if Chef's goal is met
 if perimeter >= 1000:
     print("YES")
 else:
